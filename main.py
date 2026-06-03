@@ -14,7 +14,7 @@ print("KEY LOADED:", api_key)
 
 client = OpenAI(
     api_key=api_key,
-    base_url="https://api.groq.com/openai/v1"
+    base_url="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"
 )
 
 print("KEY:", os.getenv("GROQ_API_KEY"))
